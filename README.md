@@ -1,49 +1,153 @@
-# AI-Study-Planne
-Building AI course project
+# AI Study Planner
 
-## Zusammenfassung
-Dieses Projekt nutzt KI, um Lernpläne für Studierende zu erstellen. Die Anwendung analysiert verfügbare Lernzeit, Fächer und Prüfungstermine und schlägt einen optimierten Zeitplan vor.
-Hintergrund
+Abschlussprojekt für den Building AI Kurs
 
-Viele Studierende haben Schwierigkeiten, ihre Lernzeit effizient zu organisieren. Oft wird zu spät oder unregelmäßig gelernt. Meine Motivation für dieses Projekt ist, Stress vor Prüfungen zu reduzieren und bessere Lerngewohnheiten zu fördern.
+---
 
-## Wie wird es verwendet?
+# Zusammenfassung
 
-Benutzer geben ihre Fächer, Prüfungstermine und verfügbare Lernzeit ein. Die KI erstellt daraus einen personalisierten Lernplan. Die Lösung könnte als Web- oder Mobile-App verwendet werden.
+AI Study Planner ist ein KI-gestütztes Tool, das Schülern und Studenten hilft, personalisierte Lernpläne zu erstellen. Basierend auf verfügbaren Lernzeiten, Prüfungsdaten und Schwierigkeitsgraden der Fächer erstellt die KI optimierte Zeitpläne.
 
-## Datenquellen und KI-Methoden
+Das Ziel ist es, Stress zu reduzieren und die Lernorganisation zu verbessern.
 
-Die Daten stammen aus Benutzereingaben wie Lernzeit und Prüfungsdaten.
-Mögliche KI-Techniken:
+---
 
-## Empfehlungssysteme
+# Hintergrund
 
-einfache Machine-Learning-Modelle
+Viele Lernende haben Schwierigkeiten mit:
 
-## Zeitplanoptimierung
+* Zeitmanagement
+* Motivation
+* Prüfungsstress
+* Priorisierung von Aufgaben
 
-Natural Language Processing für Lernempfehlungen
+Oft lernen Menschen ineffizient oder beginnen zu spät mit der Vorbereitung.
 
+Meine Motivation für dieses Projekt ist es, Lernen strukturierter und einfacher zu machen. KI kann helfen, individuelle Lernpläne automatisch anzupassen.
 
-## Herausforderungen
+---
 
-Die Lerngewohnheiten verschiedener Menschen unterscheiden sich stark. Die KI kann nicht garantieren, dass der Plan perfekt funktioniert. Datenschutz bei persönlichen Lerndaten wäre ebenfalls wichtig.
+# Wie wird es verwendet?
 
-Wie geht es weiter?
+Benutzer geben folgende Informationen ein:
 
-Später könnte die Anwendung:
+* Fächer
+* Prüfungsdaten
+* Verfügbare Lernstunden
+* Schwierigkeitsgrad
 
-automatische Erinnerungen senden
+Die KI analysiert die Daten und schlägt einen Lernplan vor.
 
-Lernfortschritt analysieren
+Beispiel:
 
-mit Kalender-Apps verbunden werden
+| Fach       | Schwierigkeit | Stunden pro Woche |
+| ---------- | ------------- | ----------------- |
+| Mathematik | Hoch          | 8                 |
+| Englisch   | Mittel        | 4                 |
+| Geschichte | Niedrig       | 2                 |
 
-individuelle Motivationstipps geben
+---
 
+# Bilder
 
-## Anerkennung
+## Beispiel eines KI-Lernplans
 
-Inspiriert durch Produktivitäts-Apps und KI-gestützte Lernwerkzeuge.
+![Study Planner](https://images.unsplash.com/photo-1522202176988-66273c2fd55f)
 
-Building AI course project
+## KI und Lernen
+
+![AI Education](https://images.unsplash.com/photo-1516321318423-f06f85e504b3)
+
+---
+
+# Datenquellen und KI-Methoden
+
+Das Projekt verwendet:
+
+* Benutzereingaben
+* Lernzeiten
+* Prüfungstermine
+* Prioritäten
+
+Mögliche KI-Methoden:
+
+* Empfehlungssysteme
+* Planungsalgorithmen
+* Maschinelles Lernen
+* Optimierungsalgorithmen
+
+---
+
+# Beispielcode
+
+```python
+subjects = {
+    "Mathematik": 8,
+    "Englisch": 4,
+    "Geschichte": 2
+}
+
+print("Empfohlene Lernstunden pro Woche:\n")
+
+for subject, hours in subjects.items():
+    print(f"{subject}: {hours} Stunden")
+```
+
+---
+
+# Erweiterter KI-Beispielcode
+
+```python
+import random
+
+subjects = [
+    "Mathematik",
+    "Physik",
+    "Englisch",
+    "Informatik"
+]
+
+print("KI-generierter Lernplan:\n")
+
+for subject in subjects:
+    hours = random.randint(2, 8)
+    print(f"{subject}: {hours} Stunden Lernen")
+```
+
+---
+
+# Herausforderungen
+
+Dieses Projekt löst nicht alle Probleme:
+
+* Menschen lernen unterschiedlich
+* Motivation kann nicht vollständig automatisiert werden
+* KI-Vorschläge sind nicht immer perfekt
+
+Außerdem müssen Datenschutz und verantwortungsvoller Umgang mit Nutzerdaten berücksichtigt werden.
+
+---
+
+# Wie geht es weiter?
+
+Zukünftige Verbesserungen:
+
+* Mobile App
+* Kalenderintegration
+* Erinnerungsfunktionen
+* Fortschrittsanalyse
+* Adaptive KI-Vorschläge
+* Integration mit ChatGPT APIs
+
+---
+
+# Anerkennung
+
+Inspiriert von:
+
+* KI-Lernplattformen
+* Productivity Apps
+* OpenAI
+* Building AI Kurs
+
+Verwendete Bilder stammen von Unsplash.
