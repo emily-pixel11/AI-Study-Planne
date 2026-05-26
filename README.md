@@ -1,152 +1,135 @@
 # AI Study Planner
+
 Building AI course project
 
 ---
 
-## Zusammenfassung
+## Summary
 
-AI Study Planner ist ein KI-gestütztes Tool, das Schülern und Studenten hilft, personalisierte Lernpläne zu erstellen. Basierend auf verfügbaren Lernzeiten, Prüfungsdaten und Schwierigkeitsgraden der Fächer erstellt die KI optimierte Zeitpläne.
+AI Study Planner is an AI-powered tool that helps students create personalized study plans.  
+Based on available study time, exam dates, and subject difficulty, the AI generates optimized schedules.
 
-Das Ziel ist es, Stress zu reduzieren und die Lernorganisation zu verbessern.
+The goal is to reduce stress and improve learning organization.
 
 ---
 
-## Hintergrund
+## Background
 
-Viele Lernende haben Schwierigkeiten mit:
+Many students struggle with:
 
-* Zeitmanagement
+* Time management
 * Motivation
-* Prüfungsstress
-* Priorisierung von Aufgaben
+* Exam stress
+* Prioritizing tasks
 
-Oft lernen Menschen ineffizient oder beginnen zu spät mit der Vorbereitung.
+People often study inefficiently or start preparing too late.
 
-Meine Motivation für dieses Projekt ist es, Lernen strukturierter und einfacher zu machen. KI kann helfen, individuelle Lernpläne automatisch anzupassen.
-
----
-
-## Wie wird es verwendet?
-
-Benutzer geben folgende Informationen ein:
-
-* Fächer
-* Prüfungsdaten
-* Verfügbare Lernstunden
-* Schwierigkeitsgrad
-
-Die KI analysiert die Daten und schlägt einen Lernplan vor.
-
-Beispiel:
-
-| Fach       | Schwierigkeit | Stunden pro Woche |
-| ---------- | ------------- | ----------------- |
-| Mathematik | Hoch          | 8                 |
-| Englisch   | Mittel        | 4                 |
-| Geschichte | Niedrig       | 2                 |
+My motivation for this project is to make studying more structured and easier. AI can help students organize their learning process automatically and save time.
 
 ---
 
-## Bilder
+## How is it used?
 
-## Beispiel eines KI-Lernplans
+Users enter information such as:
 
-![Study Planner](https://images.unsplash.com/photo-1522202176988-66273c2fd55f)
+* Subjects
+* Exam dates
+* Available study hours
+* Difficulty level of each subject
 
-## KI und Lernen
+The AI then creates a personalized learning schedule.
 
-![AI Education](https://images.unsplash.com/photo-1516321318423-f06f85e504b3)
+This solution can be used by:
 
----
+* High school students
+* University students
+* Online learners
 
-## Datenquellen und KI-Methoden
+Example workflow:
 
-Das Projekt verwendet:
+1. User enters study information
+2. AI analyzes priorities
+3. AI generates a weekly study plan
+4. User follows and updates the plan
 
-* Benutzereingaben
-* Lernzeiten
-* Prüfungstermine
-* Prioritäten
-
-Mögliche KI-Methoden:
-
-* Empfehlungssysteme
-* Planungsalgorithmen
-* Maschinelles Lernen
-* Optimierungsalgorithmen
+![Study Planning](https://images.unsplash.com/photo-1522202176988-66273c2fd55f)
 
 ---
 
-## Beispielcode
+## Data sources and AI methods
+
+The project could use:
+
+* User-entered study schedules
+* Calendar data
+* Subject difficulty ratings
+* Exam deadlines
+
+Possible AI methods:
+
+* Recommendation systems
+* Machine learning for schedule optimization
+* Predictive analysis for workload balancing
+
+Example Python code:
 
 ```python
-subjects = {
-    "Mathematik": 8,
-    "Englisch": 4,
-    "Geschichte": 2
-}
+subjects = ["Math", "Biology", "History"]
+hours = [4, 2, 3]
 
-print("Empfohlene Lernstunden pro Woche:\n")
+total_hours = sum(hours)
 
-for subject, hours in subjects.items():
-    print(f"{subject}: {hours} Stunden")
+for i in range(len(subjects)):
+    percentage = (hours[i] / total_hours) * 100
+    print(subjects[i], "-", round(percentage, 1), "% of study time")
 ```
 
 ---
 
-## Erweiterter KI-Beispielcode
+## Challenges
 
-```python
-import random
+This project does not solve every learning problem.
 
-subjects = [
-    "Mathematik",
-    "Physik",
-    "Englisch",
-    "Informatik"
-]
+Possible limitations:
 
-print("KI-generierter Lernplan:\n")
+* Users may not follow the schedule
+* Study effectiveness is difficult to measure
+* Personal motivation cannot fully be predicted
+* AI recommendations may not fit every learning style
 
-for subject in subjects:
-    hours = random.randint(2, 8)
-    print(f"{subject}: {hours} Stunden Lernen")
-```
+Ethical considerations:
+
+* Protecting personal data
+* Avoiding bias in recommendations
+* Preventing over-dependence on AI tools
 
 ---
 
-## Herausforderungen
+## What next?
 
-Dieses Projekt löst nicht alle Probleme:
+Future improvements could include:
 
-* Menschen lernen unterschiedlich
-* Motivation kann nicht vollständig automatisiert werden
-* KI-Vorschläge sind nicht immer perfekt
+* Mobile app integration
+* Voice assistant support
+* Smart reminders
+* Real-time progress tracking
+* Integration with Google Calendar
+* Adaptive learning recommendations
 
-Außerdem müssen Datenschutz und verantwortungsvoller Umgang mit Nutzerdaten berücksichtigt werden.
-
----
-
-## Wie geht es weiter?
-
-Zukünftige Verbesserungen:
-
-* Mobile App
-* Kalenderintegration
-* Erinnerungsfunktionen
-* Fortschrittsanalyse
-* Adaptive KI-Vorschläge
-* Integration mit ChatGPT APIs
+The project could grow into a complete AI learning assistant.
 
 ---
 
-## Anerkennung
+## Acknowledgments
 
-Inspiriert von:
+Inspired by:
 
-* KI-Lernplattformen
-* Productivity Apps
-* OpenAI
-* Building AI Kurs
+* The Building AI course
+* GitHub open-source projects
+* AI productivity applications
 
-Verwendete Bilder stammen von Unsplash.
+Image source:
+
+* Unsplash free images
+
+Created as a final project for the Building AI course.
