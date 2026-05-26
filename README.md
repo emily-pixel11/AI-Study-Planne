@@ -12,7 +12,7 @@ Das Ziel ist es, Stress zu reduzieren und die Lernorganisation zu verbessern.
 
 ---
 
-# Hintergrund
+## Hintergrund
 
 Viele Lernende haben Schwierigkeiten mit:
 
@@ -27,7 +27,7 @@ Meine Motivation für dieses Projekt ist es, Lernen strukturierter und einfacher
 
 ---
 
-# Wie wird es verwendet?
+## Wie wird es verwendet?
 
 Benutzer geben folgende Informationen ein:
 
@@ -48,7 +48,7 @@ Beispiel:
 
 ---
 
-# Bilder
+## Bilder
 
 ## Beispiel eines KI-Lernplans
 
@@ -60,7 +60,7 @@ Beispiel:
 
 ---
 
-# Datenquellen und KI-Methoden
+## Datenquellen und KI-Methoden
 
 Das Projekt verwendet:
 
@@ -78,7 +78,7 @@ Mögliche KI-Methoden:
 
 ---
 
-# Beispielcode
+## Beispielcode
 
 ```python
 subjects = {
@@ -95,7 +95,7 @@ for subject, hours in subjects.items():
 
 ---
 
-# Erweiterter KI-Beispielcode
+## Erweiterter KI-Beispielcode
 
 ```python
 import random
@@ -116,7 +116,7 @@ for subject in subjects:
 
 ---
 
-# Herausforderungen
+## Herausforderungen
 
 Dieses Projekt löst nicht alle Probleme:
 
@@ -128,7 +128,7 @@ Außerdem müssen Datenschutz und verantwortungsvoller Umgang mit Nutzerdaten be
 
 ---
 
-# Wie geht es weiter?
+## Wie geht es weiter?
 
 Zukünftige Verbesserungen:
 
@@ -141,7 +141,7 @@ Zukünftige Verbesserungen:
 
 ---
 
-# Anerkennung
+## Anerkennung
 
 Inspiriert von:
 
