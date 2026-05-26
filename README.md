@@ -4,7 +4,7 @@ Abschlussprojekt für den Building AI Kurs
 
 ---
 
-# Zusammenfassung
+## Zusammenfassung
 
 AI Study Planner ist ein KI-gestütztes Tool, das Schülern und Studenten hilft, personalisierte Lernpläne zu erstellen. Basierend auf verfügbaren Lernzeiten, Prüfungsdaten und Schwierigkeitsgraden der Fächer erstellt die KI optimierte Zeitpläne.
 
