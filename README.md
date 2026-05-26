@@ -1,6 +1,5 @@
 # AI Study Planner
-
-Abschlussprojekt für den Building AI Kurs
+Building AI course project
 
 ---
 
